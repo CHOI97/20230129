@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27544C</color>
+    <color name="colorPrimaryDark">#74927F</color>
+    <color name="colorAccent">#27544C</color>
+
+    <color name="transparent">#FF000000</color>
+    <color name="green0">#FFFDFA</color>
+    <color name="green2">#D4EBDD</color>
+    <color name="green3">#74927F</color>
+    <color name="green4">#27544C</color>
+
+    <color name="redIvory">#EFE3D6</color>
+    <color name="ivory">#FEF1E2</color>
+    <color name="brownGray">#8E8888</color>
+    <color name="red">#FF0000</color>
+
+    <!-- 기본 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="whiteForBackground">#FFFFFF</color>
+    <color name="blackForText">#4a4a4a</color>
+    <color name="redForText">#d9534f</color>
+
+</resources>

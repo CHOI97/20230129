@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_main_btm_nav_home"
+        android:icon="@drawable/icn_home_selector"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checkable="true"
+        android:title="@string/main_btm_nav_home_title" />
+
+    <item
+        android:id="@+id/menu_main_btm_nav_calendar"
+        android:icon="@drawable/icn_calendar_selector"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="@string/main_btm_nav_calendar" />
+    <item
+        android:id="@+id/menu_main_btm_nav_mypage"
+        android:icon="@drawable/icn_mypage_selector"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="@string/main_btm_nav_mypage" />
+
+</menu>

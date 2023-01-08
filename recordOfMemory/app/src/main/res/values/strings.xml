@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Record Of Memory</string>
+
+    <!-- Naming Rules -->
+    <!-- 도메인명_컴포넌트함축어_용도(=목적) -->
+
+    <!-- Common -->
+    <string name="check">확인</string>
+    <string name="cancel">취소</string>
+    <string name="review">댓글</string>
+    <string name="setting">설정</string>
+    <string name="mypage">마이페이지</string>
+
+    <!-- Sign Up -->
+    <string name="sign_up_tv_input_email">이메일 주소를 입력해주세요</string>
+    <string name="sign_up_et_input_email">이메일을 입력해주세요</string>
+    <string name="sign_up_dialog_tv_exist_email">이미 존재하는 메일 주소입니다.\n다시 시도해주세요.</string>
+    <string name="sign_up_tv_input_password">비밀번호를 입력해주세요</string>
+    <string name="sign_up_tv_input_password_again">비밀번호를 한 번 더 입력해주세요</string>
+    <string name="sign_up_tv_input_nickname">프로필을 완성하기 위해\n닉네임을 입력해주세요</string>
+    <string name="sign_up_err_tv_password">비밀번호가 다릅니다</string>
+    <string name="sign_up_err_tv_email">이메일 형식이 올바르지 않습니다</string>
+
+    <!-- Main -->
+    <string name="main_btm_nav_home_title">홈</string>
+    <string name="main_btm_nav_calendar">달력</string>
+    <string name="main_btm_nav_alert">알림</string>
+    <string name="main_btm_nav_mypage">마이페이지</string>
+
+    <!-- Home -->
+    <string name="home_btn_try_get_http_method">GET API 보내기</string>
+    <string name="home_btn_try_post_http_method">POST API 보내기</string>
+    <string name="home_et_id">아이디를 입력하세요.</string>
+    <string name="home_et_pw">비밀번호를 입력하세요.</string>
+
+    <!-- MyPage -->
+    <string name="my_page_tv_counter">%1d 번 눌렀습니다.</string>
+    <string name="my_page_btn_counting_number">숫자 세기</string>
+
+</resources>
