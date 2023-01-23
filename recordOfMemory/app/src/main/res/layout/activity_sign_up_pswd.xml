@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="비밀번호를 입력해주세요"
+            android:text="@string/sign_up_tv_input_password"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:textSize="20dp"
@@ -42,7 +42,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="131dp"
             android:textColor="@color/black"
-            android:text="영문, 숫자 포함 8~20자 이내"
+            android:text="@string/sign_up_tv_input_rules"
             android:fontFamily="@font/noto_sans_regular"
             android:textSize="11dp"/>
 
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:backgroundTint="@android:color/transparent"
-                android:hint="비밀번호를 입력해주세요"
+                android:hint="@string/sign_up_tv_input_password"
                 android:textSize="11dp"
                 android:textColorHint="@color/brownGray"
                 android:fontFamily="@font/noto_sans_regular"
@@ -87,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:backgroundTint="@android:color/transparent"
-                android:hint="비밀번호를 한 번 더 입력해주세요"
+                android:hint="@string/sign_up_tv_input_password_again"
                 android:textSize="11dp"
                 android:textColorHint="@color/brownGray"
                 android:fontFamily="@font/noto_sans_regular"
@@ -103,7 +103,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="33dp"
             android:textColor="@color/red"
-            android:text="비밀번호가 다릅니다"
+            android:text="@string/sign_up_err_tv_password"
             android:textSize="11dp"
             android:layout_marginTop="240dp"
             android:fontFamily="@font/noto_sans_regular"/>
@@ -155,7 +155,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginHorizontal="24dp"
-            android:text="다음"
+            android:text="@string/next"
             android:textSize="15dp"
             android:textColor="@color/black"
             android:fontFamily="@font/noto_sans_bold"/>

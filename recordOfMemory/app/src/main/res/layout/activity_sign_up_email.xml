@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="이메일 주소를 입력해주세요"
+            android:text="@string/sign_up_tv_input_email"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:textSize="20dp"
@@ -53,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:backgroundTint="@android:color/transparent"
-                android:hint="이메일을 입력해주세요"
+                android:hint="@string/sign_up_et_input_email"
                 android:textSize="11dp"
                 android:textColorHint="@color/brownGray"
                 android:fontFamily="@font/noto_sans_regular"
@@ -69,7 +69,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="33dp"
             android:textColor="@color/red"
-            android:text="이메일 형식이 올바르지 않습니다"
+            android:text="@string/sign_up_err_tv_email"
             android:textSize="11dp"
             android:layout_marginTop="193dp"
             android:fontFamily="@font/noto_sans_regular"/>
@@ -112,7 +112,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginHorizontal="24dp"
-            android:text="다음"
+            android:text="@string/next"
             android:textSize="15dp"
             android:textColor="@color/black"
             android:fontFamily="@font/noto_sans_bold"/>
