@@ -34,6 +34,17 @@
     <string name="sign_up_err_tv_password">비밀번호가 다릅니다</string>
     <string name="sign_up_err_tv_email">이메일 형식이 올바르지 않습니다</string>
 
+    <!-- Onboarding -->
+    <string name="onboarding_btn_skip">건너뛰기</string>
+    <string name="onboarding_tv_content">기록하고 싶은 기억이 있으신가요?</string>
+    <string name="onboarding_tv_content_s">기록하고 싶은 오늘의 기록은 어떤 기록인가요?\n자유롭게 작성해주세요 :)</string>
+    <string name="onboarding_tv_record_title">이 기록의 제목을 정해주세요.</string>
+    <string name="onboarding_tv_record_title_s">제목은 최대 20자로 작성해주세요.</string>
+    <string name="onboarding_tv_diary_name">다이어리의 이름을 정해주세요.</string>
+    <string name="onboarding_tv_diary_name_s">이 기록을 담은 다이어리가 만들어졌어요!\n이 기록은 어떤 내용을 담고 있나요?</string>
+    <string name="onboarding_tv_diary_start">함께 기록하는 우리만의 다이어리\n우리기억에서 함께해요.</string>
+    <string name="onboarding_tv_diary_start_s">이메일로 함께할 사람을 초대할 수 있어요.</string>
+
     <!-- Main -->
     <string name="main_btm_nav_home_title">홈</string>
     <string name="main_btm_nav_calendar">달력</string>
