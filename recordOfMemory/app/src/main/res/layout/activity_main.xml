@@ -7,10 +7,17 @@
     tools:context="com.recordOfMemory.src.main.MainActivity">
 
     <FrameLayout
+        android:id="@+id/onboarding_frm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    <FrameLayout
         android:id="@+id/main_frm"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="?attr/actionBarSize" />
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:visibility="invisible"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/main_btm_nav"
@@ -22,6 +29,7 @@
         app:itemTextColor="@drawable/main_btm_nav_item_color"
         app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu_main_bottom_nav" />
+        app:menu="@menu/menu_main_bottom_nav"
+        android:visibility="invisible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
