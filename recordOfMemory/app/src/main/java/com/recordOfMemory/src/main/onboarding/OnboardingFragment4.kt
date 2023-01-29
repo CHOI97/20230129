@@ -35,12 +35,10 @@ class OnboardingFragment4 : Fragment() {
         //시작하기 누르면
         viewBinding.nextBtn.setOnClickListener {
             mainActivity!!.hideMainFragment(false)
-            mainActivity!!.openFragmentOnOnboarding(5)
         }
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-//        mainActivity!!.openFragmentOnOnboarding(5)
     }
 }

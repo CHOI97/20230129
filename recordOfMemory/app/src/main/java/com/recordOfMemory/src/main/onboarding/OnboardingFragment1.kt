@@ -39,7 +39,6 @@ class OnboardingFragment1 : Fragment() {
         //건너뛰기 누르면
         viewBinding.skipBtn.setOnClickListener {
             mainActivity!!.hideMainFragment(false)
-            mainActivity!!.openFragmentOnOnboarding(5)
         }
     }
 }
